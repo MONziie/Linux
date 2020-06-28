@@ -1,0 +1,62 @@
+clear 清空屏幕
+
+cd
+cd foldername/ 移动到相应目录
+cd .. 返回上级目录
+cd ../.. 返回上上级目录
+cd - 返回上条指令目录
+cd ~ 返回/home/username目录
+cd /home/username/Documents/ 绝对路径
+
+ls
+ls 浏览文件夹下的文件(白色)和文件夹(蓝色)
+ls -l 显示全部信息
+ls -a 显示全部文件(包含隐藏文件)
+ls -lh 显示全部信息，友好显示
+
+touch
+touch filename 创建文件
+touch filename1 filename2 同时创建多个文件
+
+cp
+cp file1 file1copy 复制文件
+cp -i file1 file1copy 交互复制，防止重复写入
+cp file1 foldername/ 复制到文件夹下
+cp -R folder1/ folder2/ 递归复制，folder1下的文件复制到folder2文件夹下面
+cp file* 复制file开头的文件
+cp *name 复制name结尾的文件
+
+mv
+mv file1 folder1/ 移动到文件夹下
+mv file1 filerename 重命名文件
+
+mkdir
+mkdir folder 创建文件夹
+
+rmdir
+rmdir folder 移除空文件夹
+
+rm
+rm file1 移除文件
+rm -i file1 交互删除
+rm -I f1 f2 f3 超过三个以上文件提醒
+rm -r folder 删除有文件的文件夹
+
+nano
+touch test.py
+nano test.py 编辑test.py
+输入print("python script")
+ctrl+x退出,y确定保存
+python3 test.py运行test.py
+
+cat
+cat test.py 显示文件内容
+cat test.py > test1.py 复制内容到test1.py
+cat test.py test1.py > test2.py 合并复制内容到test2.py
+cat test.py >> test2.py 把test内容加到test2中
+
+
+
+
+
+链接：https://www.jianshu.com/p/0b287f2dcd4b
